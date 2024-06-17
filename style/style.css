@@ -524,6 +524,12 @@ footer a > svg:hover path {
 }
 
 /* Redes sociais */
+
+article.redes-fotos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 ul {
   list-style: none;
 }
