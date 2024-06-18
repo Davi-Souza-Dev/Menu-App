@@ -81,6 +81,8 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
+
 }
 
 section {
@@ -224,6 +226,7 @@ article.categorias > div#cat5{
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 
 .container-product::-webkit-scrollbar {
@@ -505,6 +508,7 @@ footer{
   height: 50px;
   width: 100%;
   bottom: 0px;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
