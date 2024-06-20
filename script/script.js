@@ -25,6 +25,29 @@ const atualizarMarc = (indexAtivo) => {
 };
 atualizarMarc(indexAtivo);
 
+//Aba de bebidas responsiva
+const abaBebidas = document.createElement("article");
+abaBebidas.setAttribute("class", "container-card");
+abaBebidas.innerHTML = ` <h2>Bebidas</h2>
+<div class="container-product">
+  <div class="product-card">
+    <div class="content">
+      <label class="checkBox">
+        <input class="cbBebidas" type="checkbox" value="coca-cola 2L" />
+        <div class="transition"></div>
+      </label>
+    </div>
+    <img
+      src="../imagens/extra - bebidas/bebida1.png"
+      alt="product-icon"
+    />
+    <h1>Coca cola 2l</h1>
+    <p>R$99,99</p>
+  </div>
+</div>`;
+const ref = document.getElementById("ref");
+ref.appendChild(abaBebidas);
+
 //Função para realizar o pedido
 
 const extra = [...document.getElementsByClassName("cbEscolha")];
@@ -93,12 +116,12 @@ const montarMsg = () => {
     }
   }
 
-//   Realizando o pedido ao clicar no botão
-    let url = new String(
-      "https://api.whatsapp.com/send?phone=5511949335503&text="
-    );
-    url = url.concat(pedidoFinal);
-    window.location = url;
+  //   Realizando o pedido ao clicar no botão
+  let url = new String(
+    "https://api.whatsapp.com/send?phone=5511949335503&text="
+  );
+  url = url.concat(pedidoFinal);
+  window.location = url;
   console.log(pedidoFinal);
 };
 

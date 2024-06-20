@@ -385,7 +385,7 @@ div.extra span {
   justify-content: flex-start;
 }
 
-div.extra span > h1 {
+div.extra span h1 {
   font-size: 1.3rem;
   padding-right: 5px;
 }
@@ -440,7 +440,7 @@ div.extra span > h1 {
   transition: 300ms ease;
 }
 
-section.product > .container-card {
+section.product .container-card {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -453,18 +453,26 @@ section.product > .container-card {
 
 /* Bebidas - Product */
 
-section.product > .container-card {
+section.product  .container-card {
   padding-left: 20px;
 }
-section.product > .container-card > .container-product{
+
+section.product  .container-card  .container-product{
   padding-bottom: 100px;
 }
-section.product > .container-card > .container-product > .product-card {
+
+section.product .container-card .container-product .product-card {
   position: relative;
   justify-content: center;
 }
 
-.product-card > .content {
+.container-card h2 {
+  font-family: var(--fontSecundaria);
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.product-card  .content {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -473,32 +481,32 @@ section.product > .container-card > .container-product > .product-card {
 }
 
 section.product
-  > .container-card
-  > .container-product
-  > .product-card
-  > .content
-  > .checkBox {
+.container-card
+.container-product
+.product-card
+.content
+.checkBox {
   width: 10px;
   height: 10px;
 }
 
 section.product
-  > .container-card
-  > .container-product
-  > .product-card
-  > .content
-  > .checkBox
+.container-card
+.container-product
+.product-card
+.content
+.checkBox
   div {
   width: 30px;
   height: 30px;
 }
 
 section.product
-  > .container-card
-  > .container-product
-  > .product-card
-  > .content
-  > .checkBox
+.container-card
+.container-product
+.product-card
+.content
+.checkBox
   input[type="checkbox"] {
   position: absolute;
   left: 50%;
