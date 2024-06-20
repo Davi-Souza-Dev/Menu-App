@@ -30,7 +30,7 @@
       </article>
       <article class="info">
         <span>
-          <h1>Pizza de calabresa</h1>
+          <h1 id="name">Pizza de calabresa</h1>
           <p class="price">R$99,99</p>
         </span>
         <h2>Descrição</h2>
@@ -46,74 +46,62 @@
         <div class="extra">
           <span>
             <h1>Calabresa Extra</h1>
-            <p> + R$5,00</p>
+            <p>+ R$5,00</p>
           </span>
           <div class="content">
             <label class="checkBox">
-              <input id="ch1" type="checkbox">
+              <input
+                type="checkbox"
+                class="cbEscolha"
+                value="calabresa extra"
+              />
               <div class="transition"></div>
             </label>
           </div>
         </div>
         <div class="extra">
-            <span>
-              <h1>Calabresa Extra</h1>
-              <p> + R$5,00</p>
-            </span>
-            <div class="content">
-                <label class="checkBox">
-                  <input id="ch1" type="checkbox">
-                  <div class="transition"></div>
-                </label>
-              </div>
+          <span>
+            <h1>Queijo Extra</h1>
+            <p>+ R$5,00</p>
+          </span>
+          <div class="content">
+            <label class="checkBox">
+              <input
+                type="checkbox"
+                class="cbEscolha"
+                value="queijo extra"
+              />
+              <div class="transition"></div>
+            </label>
           </div>
-          <div class="extra">
-            <span>
-              <h1>Calabresa Extra</h1>
-              <p> + R$5,00</p>
-            </span>
-            <div class="content">
-              <label class="checkBox">
-                <input id="ch1" type="checkbox">
-                <div class="transition"></div>
-              </label>
-            </div>
+        </div>
+        <div class="extra">
+          <span>
+            <h1>Borda recheada</h1>
+            <p>+ R$25,00</p>
+          </span>
+          <div class="content">
+            <label class="checkBox">
+              <input
+                type="checkbox"
+                class="cbEscolha"
+                value="Borda recheada"
+              />
+              <div class="transition"></div>
+            </label>
           </div>
-          <div class="extra">
-            <span>
-              <h1>Calabresa Extra</h1>
-              <p> + R$5,00</p>
-            </span>
-            <div class="content">
-              <label class="checkBox">
-                <input id="ch1" type="checkbox">
-                <div class="transition"></div>
-              </label>
-            </div>
-          </div>
-          <div class="extra">
-            <span>
-              <h1>Calabresa Extra</h1>
-              <p> + R$5,00</p>
-            </span>
-            <div class="content">
-              <label class="checkBox">
-                <input id="ch1" type="checkbox">
-                <div class="transition"></div>
-              </label>
-            </div>
-          </div>
+        </div>
       </article>
       <article class="container-card">
         <h2>Bebidas</h2>
         <div class="container-product">
           <div class="product-card">
             <div class="content">
-                <label class="checkBox">
-                  <input id="ch1" type="checkbox">
-                  <div class="transition"></div>
-                </label>
-              </div>
+              <label class="checkBox">
+                <input class="cbBebidas" type="checkbox" value="coca-cola 2L" />
+                <div class="transition"></div>
+              </label>
+            </div>
             <img
               src="../imagens/extra - bebidas/bebida1.png"
               alt="product-icon"
@@ -125,7 +113,9 @@
       </article>
     </section>
     <footer class="product">
-        <button id="btnPedir"> <img src="../imagens/whatsapp.png" alt="icon-whatsapp">pedir</button>
+      <button id="btnPedir">
+        <img src="../imagens/whatsapp.png" alt="icon-whatsapp" />pedir
+      </button>
     </footer>
     <script src="../script/script.js"></script>
   </body>
