@@ -454,7 +454,9 @@ section.product > .container-card {
 section.product > .container-card {
   padding-left: 20px;
 }
-
+section.product > .container-card > .container-product{
+  padding: 0px;
+}
 section.product > .container-card > .container-product > .product-card {
   position: relative;
   justify-content: center;
@@ -506,7 +508,7 @@ footer.product {
   height: 60px;
   background: var(--cor4);
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   z-index: 100;
   border-radius: 50px 50px 0px 0px;
