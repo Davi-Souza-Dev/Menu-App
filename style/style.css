@@ -21,6 +21,7 @@ html {
   height: 100%;
   background: var(--cor3);
   overflow-x: hidden;
+  position: relative;
 }
 
 body::-webkit-scrollbar{
@@ -242,6 +243,7 @@ section.catalogo > .vertical {
 section.product {
   background: var(--cor2);
   display: flex;
+  overflow: visible;
 }
 
 section.product > article {
@@ -446,7 +448,7 @@ section.product > .container-card {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px 10px;
-  padding: 10px 0px 20px 0px;
+  /* padding: 10px 0px 20px 0px; */
 }
 
 /* Bebidas - Product */
@@ -455,7 +457,7 @@ section.product > .container-card {
   padding-left: 20px;
 }
 section.product > .container-card > .container-product{
-  padding: 0px;
+  padding-bottom: 100px;
 }
 section.product > .container-card > .container-product > .product-card {
   position: relative;
