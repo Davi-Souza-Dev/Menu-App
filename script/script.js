@@ -95,7 +95,7 @@ const montarMsg = () => {
 
 //   Realizando o pedido ao clicar no botão
     let url = new String(
-      "https://api.whatsapp.com/send?phone=5511949335503&text="
+      "https://wa.me/send?phone=5511949335503&text="
     );
     url = url.concat(pedidoFinal);
     window.location = url;
