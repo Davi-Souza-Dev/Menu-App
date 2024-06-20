@@ -1,3 +1,4 @@
+
 //Funções para as fotos da página produtos
 const index = [...document.getElementsByClassName("index")];
 const fundo = document.getElementById("fundo");
