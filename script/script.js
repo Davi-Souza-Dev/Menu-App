@@ -108,26 +108,26 @@ const montarMsg = () => {
   pedidoFinal = pedidoFinal.concat(".");
   if (extraSelecionados.length > 0) {
     extraSelecionados.map((e) => {
-      msgExtra += `>${e}.`;
+      msgExtra += `> ${e}.`;
     });
     pedidoFinal = pedidoFinal.concat(msgExtra);
     for (let i = 0; i <= pedidoFinal.length; i++) {
       pedidoFinal = pedidoFinal.replace(",", ".");
       pedidoFinal = pedidoFinal.replace(".", "%0A");
       pedidoFinal = pedidoFinal.replace(" ", "%20");
-      pedidoFinal = pedidoFinal.replace(">", "%3E");
+      pedidoFinal = pedidoFinal.replace("> ", "%3E");
     }
   }
   if (bebidasSelecionados.length > 0) {
     bebidasSelecionados.map((e) => {
-      msgBebida += `>${e}.`;
+      msgBebida += `> ${e}.`;
     });
     pedidoFinal = pedidoFinal.concat(msgBebida);
     for (let i = 0; i <= pedidoFinal.length; i++) {
       pedidoFinal = pedidoFinal.replace(",", ".");
       pedidoFinal = pedidoFinal.replace(".", "%0A");
       pedidoFinal = pedidoFinal.replace(" ", "%20");
-      pedidoFinal = pedidoFinal.replace(">", "%3E");
+      pedidoFinal = pedidoFinal.replace("> ", "%3E");
     }
   }
 
