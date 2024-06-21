@@ -45,6 +45,20 @@ abaBebidas.innerHTML = ` <h2>Bebidas</h2>
     <h1>Coca cola 2l</h1>
     <p>R$99,99</p>
   </div>
+  <div class="product-card">
+  <div class="content">
+    <label class="checkBox">
+      <input class="cbBebidas" type="checkbox" value="Fanta Laranja 2L" />
+      <div class="transition"></div>
+    </label>
+  </div>
+  <img
+    src="../imagens/extra - bebidas/bebida2.png"
+    alt="product-icon"
+  />
+  <h1>Fanta Laranja 2L</h1>
+  <p>R$99,99</p>
+</div>
 </div>`;
 const ref = document.getElementById("ref");
 ref.appendChild(abaBebidas);
