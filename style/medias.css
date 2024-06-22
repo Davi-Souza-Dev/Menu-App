@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body{
+        display: none;
+    }
+    html::before{
+        content: 'Não disponivel para tablets e computadores';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-transform: uppercase;
+        font-weight: bolder;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        color: black;
+    }
+}
