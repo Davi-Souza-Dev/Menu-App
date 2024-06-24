@@ -1,3 +1,13 @@
+//Remover animação do index
+
+const intro = document.getElementById("intro");
+
+const remover = setTimeout(()=>{
+  intro.remove();
+},2100);
+
+
+
 //Funções para as fotos da página produtos
 const index = [...document.getElementsByClassName("index")];
 const fundo = document.getElementById("fundo");
