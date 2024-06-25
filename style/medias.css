@@ -15,4 +15,7 @@
     footer.product{
         position: relative;
     }
+    .fundoForm{
+        width: 500px;
+    }
 }
